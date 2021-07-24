@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">NATOConverter</string>
     <string name="convert">Convert</string>
-    <string name="text_label">Enter a value!</string>
+    <string name="text_label">Enter a word or letter.</string>
     <string name="text_number">No Numbers!</string>
     <string name="done">Done!</string>>
 

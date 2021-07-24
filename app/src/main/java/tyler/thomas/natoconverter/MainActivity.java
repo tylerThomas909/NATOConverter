@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onBackPressed() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Exit?")
+        builder.setMessage("Exit Application?")
                 .setCancelable(false)
                 .setPositiveButton("Yes", (dialog, k) -> MainActivity.super.onBackPressed())
                 .setNegativeButton("No", (dialog, which) -> dialog.cancel());
